@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-terminal-tests",
+  "version": "1.0.0",
+  "description": "testing my bootcamp functions",
+  "main": "test",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bootcamp-terminal-tests"
+  },
+  "keywords": [
+    "bootcampTest"
+  ],
+  "author": "christian@projectcodex.co",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.1"
+  }
+}
