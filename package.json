@@ -1,24 +1,22 @@
 {
   "name": "bootcamp-terminal-tests",
   "version": "1.0.0",
-  "description": "testing my bootcamp functions",
-  "main": "test",
+  "description": "testing",
+  "main": "countAllFromTown.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "bootcamp-terminal-tests"
-  },
-  "keywords": [
-    "bootcampTest"
-  ],
-  "author": "christian@projectcodex.co",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
+    "express-handlebars": "^3.0.0",
+    "mocha": "^3.4.1"
+  },
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
     "mocha": "^3.4.1"
   }
 }
