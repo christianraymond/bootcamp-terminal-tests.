@@ -4,7 +4,7 @@ module.exports = function(){
     var allPaarRegNum = 0;
     for(var x = 0; x < splitedRedNum.length; x++){
       aPaarlRegNum = splitedRedNum[x].trim();
-      if(aPaarlRegNum.startsWith('CP')){
+      if(aPaarlRegNum.includes('CP')){
         allPaarRegNum++
       }
     }
