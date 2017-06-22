@@ -3,6 +3,6 @@ const countAllFromTown = require('../countAllFromTown');
 
 describe('The countAllFromTown function', function(){
     it('Should count all registrations numbers from town', function(){
-        assert.equal(countAllFromTown('CA, CY, CA'));
+        assert.equal(countAllFromTown('CA'));
     });
 });

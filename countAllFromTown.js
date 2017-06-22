@@ -10,5 +10,5 @@ module.exports = function(){
  }
  return incrementRegNum;
 }
- countAllFromTown('CA, CY, CA');
+ countAllFromTown('CA');
 }
