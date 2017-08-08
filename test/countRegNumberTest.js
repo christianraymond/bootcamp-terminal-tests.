@@ -1,8 +1,8 @@
-// const assert = require('assert');
-// const countedRegNum = require('../countRedNumber');
-//
-// describe('The countRedNumber', function(){
-//   it('it should count count all registrations numbers', function(){
-//     // assert.equal(countRedNumber())
-//   })
-// })
+const assert = require('assert');
+const countRegNumber = require('../countRegNumber');
+
+describe('The countRegNumber', function(){
+  it('it should count all registrations numbers from different towns', function(){
+    assert.equal(countRegNumber('CL 124,CY 567,CL 345,CJ 456,CL 341,CL'), 6)
+  })
+});
